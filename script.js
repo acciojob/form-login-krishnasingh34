@@ -5,5 +5,5 @@ function getFormvalue() {
 let lname = document.querySelector('#lname')
             let firstname = fname.value
             let lastname = lname.value
-            alert(firstname+lastname)
+            alert(firstname+' '+lastname)
 }

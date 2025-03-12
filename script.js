@@ -1,10 +1,8 @@
-let form = document.querySelector('form')
-let fname = document.querySelector('#fname')
-let lname = document.querySelector('#lname')
-form.addEventListener('submit', getFormvalue)
-function getFormvalue(e) {
+
+function getFormvalue() {
     //Write your code here
-	e.preventDefault()
+	let fname = document.querySelector('#fname')
+let lname = document.querySelector('#lname')
             let firstname = fname.value
             let lastname = lname.value
             alert(firstname+lastname)
